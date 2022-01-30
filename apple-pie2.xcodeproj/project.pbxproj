@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C050B7327A676CD00C34C7C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C050B7227A676CD00C34C7C /* Game.swift */; };
 		3CDCD10C27A1A86D00DB8677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD10B27A1A86D00DB8677 /* AppDelegate.swift */; };
 		3CDCD10E27A1A86D00DB8677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD10D27A1A86D00DB8677 /* SceneDelegate.swift */; };
 		3CDCD11027A1A86D00DB8677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCD10F27A1A86D00DB8677 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C050B7227A676CD00C34C7C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3CDCD10827A1A86D00DB8677 /* apple-pie2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apple-pie2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDCD10B27A1A86D00DB8677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CDCD10D27A1A86D00DB8677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				3CDCD10B27A1A86D00DB8677 /* AppDelegate.swift */,
 				3CDCD10D27A1A86D00DB8677 /* SceneDelegate.swift */,
 				3CDCD10F27A1A86D00DB8677 /* ViewController.swift */,
+				3C050B7227A676CD00C34C7C /* Game.swift */,
 				3CDCD11127A1A86D00DB8677 /* Main.storyboard */,
 				3CDCD11427A1A86D00DB8677 /* Assets.xcassets */,
 				3CDCD11627A1A86D00DB8677 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				3CDCD11027A1A86D00DB8677 /* ViewController.swift in Sources */,
 				3CDCD10C27A1A86D00DB8677 /* AppDelegate.swift in Sources */,
 				3CDCD10E27A1A86D00DB8677 /* SceneDelegate.swift in Sources */,
+				3C050B7327A676CD00C34C7C /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -482,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
